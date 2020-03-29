@@ -6,7 +6,7 @@ import api from '../../services/api';
 
 import './styles.css';
 
-import logoImg from '../../assets/logo.svg';
+import logoImg from '../../assets/logo.png';
 import groupImg from '../../assets/heroes.png';
 import { useState } from 'react';
 
@@ -45,10 +45,11 @@ export default function Logon() {
 
                 <button className="button" type="submit">Entrar</button>
 
-                <Link className="back-link" to="/register">
+                <Link to="/register">
                     <FiLogIn size={16} color="#E02141" />
                     Não tenho cadastro
                 </Link>
+                
             </form>
         </section>
         <img src={groupImg} alt="group"/>

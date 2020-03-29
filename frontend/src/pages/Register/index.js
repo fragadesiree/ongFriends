@@ -4,7 +4,7 @@ import { FiArrowLeft } from 'react-icons/fi';
 
 import api from '../../services/api';
 
-import logoImg from '../../assets/logo.svg';
+import logoImg from '../../assets/logo.png';
 
 import './styles.css';
 
@@ -48,7 +48,7 @@ export default function Register() {
                     <h1>Cadastro</h1>
                     <p>Faça seu cadastro, entre na plataforma e ajude pessoas a encontrarem os casos da sua ONG ou instituição.</p>
 
-                    <Link className="back-link" to="/">
+                    <Link to="/">
                         <FiArrowLeft size={16} color="#E02141" />
                         Não tenho cadastro
                     </Link>
